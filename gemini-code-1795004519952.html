@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Defy Wahyuni</title>
+    <style>
+        :root {
+            --primary-pink: #ff6584;
+            --light-pink: #ffe3e9;
+            --dark-pink: #d94b68;
+            --text-color: #4a4a4a;
+            --bg-color: #fff9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(255, 101, 132, 0.15);
+            overflow: hidden;
+            border: 2px solid var(--light-pink);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-pink), var(--dark-pink));
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .contact-info {
+            background-color: var(--light-pink);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-weight: 600;
+            color: var(--dark-pink);
+            border-bottom: 1px solid #ffd1dc;
+        }
+
+        .contact-info div {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: var(--dark-pink);
+            border-bottom: 2px solid var(--light-pink);
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills-list span {
+            background-color: var(--light-pink);
+            color: var(--dark-pink);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 15px;
+        }
+
+        .experience-item h3, .education-item h3 {
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .date {
+            font-size: 0.85em;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--light-pink);
+            color: var(--dark-pink);
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+          <h1>Defy Wahyuni</h1>
+          <p>Pencari Kerja Profesional & Berdedikasi</p>
+        </header>
+
+        <!-- Informasi Kontak -->
+        <div class="contact-info">
+            <div>📞 0831-8271-1169</div>
+            <div>📍 Panyabungan</div>
+        </div>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Tentang Saya -->
+            <section>
+                <h2>Tentang Saya</h2>
+                <p>Halo! Saya Defy Wahyuni, individu yang dinamis, memiliki motivasi tinggi, serta siap berkontribusi secara maksimal untuk memberikan hasil terbaik di perusahaan atau instansi yang dilamar.</p>
+            </section>
+
+            <!-- Pengalaman / Riwayat -->
+            <section>
+                <h2>Pengalaman / Aktivitas</h2>
+                <div class="experience-item">
+                    <h3>Pengalaman Organisasi / Proyek Mandiri</h3>
+                    <div class="date">2023 - Sekarang</div>
+                    <p>Aktif dalam berbagai kegiatan kolaboratif yang mengasah kemampuan komunikasi, manajemen waktu, serta kerja sama tim.</p>
+                </div>
+            </section>
+
+            <!-- Pendidikan -->
+            <section>
+                <h2>Pendidikan</h2>
+                <div class="education-item">
+                    <h3>Pendidikan Menengah / Tingkat Akhir</h3>
+                    <div class="date">Panyabungan</div>
+                    <p>Menyelesaikan pendidikan dengan hasil yang baik serta aktif dalam kegiatan pengembangan diri.</p>
+                </div>
+            </section>
+
+            <!-- Keahlian -->
+            <section>
+                <h2>Keahlian</h2>
+                <div class="skills-list">
+                    <span>Komunikasi Efektif</span>
+                    <span>Kerja Tim</span>
+                    <span>Manajemen Waktu</span>
+                    <span>Adaptasi Cepat</span>
+                    <span>Microsoft Office</span>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            &copy; 2026 Defy Wahyuni - Panyabungan
+        </footer>
+    </div>
+
+</body>
+</html>
